@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FE-TAO_test-ina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="assets/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <h1>
+          <a href="./index.html" class="header-logo">
+            <span>FE-TAO</span> test-ina
+          </a>
+        </h1>
+      </div>
+    </header>
+    <main>
+      <div class="main-wrapper">
+        <div class="sidebar">
+          <div class="top-bar">
+            <h2>Search</h2>
+          </div>
+          <div class="search-block">
+            <div class="search-content">
+              <div class="search-wrapper">
+                <input type="text" list="responseList" id="search" class="search-control" name="request" placeholder="Request..." value="" autofocus="" autocomplete="off" />
+              </div>
+              <div id="error-message"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content">
+          <div class="top-bar">
+            <div class="users-count"><span></span> user(s) displayed</div>
+          </div>
+          <div id="data-details" class="content"></div>
+        </div>
+      </div>
+    </main>
+    <script src="assets/index.js"></script>
+  </body>
+</html>
